@@ -1,0 +1,126 @@
+/*#image{
+    position: fixed;
+    top: 1%;
+    right: 1%;
+}
+*/
+#google_search{
+    cursor: pointer;
+    position: fixed;
+    top: 1%;
+    right: 7%;
+}
+#google_search:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+h2{
+    margin-top: 40px;
+    font-weight: inherit; 
+    font-family: arial,sans-serif;
+    font-size: 100%;
+    margin-left: 30px;
+}
+#field1{
+    position: fixed;
+    top: 30%;
+    left: 16%;
+    width: 50%;
+    height: 25px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+}
+#field1:focus,#field2:focus,#field3:focus,#field4:focus{
+    border-color: #3484F0;
+    box-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+}
+#field2{
+    position: fixed;
+    top: 37%;
+    left: 16%;
+    width: 50%;
+    height: 25px;
+    border: 0.5px solid rgb(224, 221, 221);
+    outline: none;
+}
+#field3{
+    position: fixed;
+    top: 44%;
+    left: 16%;
+    width: 50%;
+    height: 25px;
+    border: 0.5px solid rgb(224, 221, 221);
+    outline: none;
+}
+#field4{
+    position: fixed;
+    left: 16%;
+    top: 51%;
+    width: 50%;
+    height: 25px;
+    border: 0.5px solid rgb(224, 221, 221);
+    outline: none;
+}
+label[for=field1]{
+    position: fixed;
+    margin-left: 28px;
+    top: 31%;
+}   
+label[for=field_1]{
+    position: fixed; 
+    top: 31%; 
+    right: 13%;
+}
+label[for=field2]{
+    position: fixed;
+    top: 38%;
+    margin-left: 28px;
+}
+label[for=field_2]{
+    position: fixed; 
+    top: 38%; 
+    right: 16%;
+}
+label[for=field3]{
+    position: fixed;
+    margin-left:28px;
+    top: 45%;
+}
+label[for=field_3]{
+    position: fixed; 
+    top: 45%; 
+    right: 5%;
+}
+label[for=field4]{
+    position: fixed;
+    margin-left: 28px;
+    top: 52%;
+}
+label[for=field_4]{
+    position: fixed;
+    top: 52%; 
+    right: 9%;
+}
+label{
+    font-size: 13px;
+    font-weight: inherit;
+    font-family: Arial, sans-serif; 
+}
+span{
+    color: rgb(212, 212, 212);
+}
+#advance_search{
+    outline: none;
+    position: fixed;
+    top: 62%;
+    right: 34%;
+    height: 30px;
+    width: 10%;
+    background-color: #4d90fe;
+    border: #4d90fe;
+    box-shadow: none;
+    color: white;
+}
+#advance_search:hover{
+    border: 2px solid #3079ed;
+} 
